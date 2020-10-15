@@ -16,10 +16,13 @@ I like to do fun projects for friends etc… contact me if you would like me to 
 - Various discord utilities that are private for now…
 
 -----
+
 <p align="center">
 <img alt="My github stats" src="https://github-readme-stats.vercel.app/api?username=seasnail8169&show_icons=true&theme=radical">
 </p>
+
 -----
+
 ## **Support**
 
 Having issues with the bot? Check out [my discord server](https://discord.gg/Pta3APY).
