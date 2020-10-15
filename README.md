@@ -7,12 +7,6 @@
 
 -----
 
-<p align="center">
-<img alt="My github stats" src="https://github-readme-stats.vercel.app/api?username=seasnail8169&show_icons=true&theme=radical">
-</p>
-
------
-
 ### **Support/Contact**
 <p align="center">
 <a href="https://keybase.io/seasnail"><img alt="Keybase" src="https://img.shields.io/badge/Keybase-seasnail-blue?style=flat-square&logo=keybase"></a>
@@ -28,3 +22,9 @@ All of my work is licensed under the Creative Commons Attribution-NonCommercial-
 To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/.
 
 Copyright (c) 2020 seasnail8169
+
+-----
+
+<p align="center">
+<img alt="My github stats" src="https://github-readme-stats.vercel.app/api?username=seasnail8169&show_icons=true&theme=radical">
+</p>
