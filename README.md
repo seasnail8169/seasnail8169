@@ -24,6 +24,7 @@ I like to do fun projects for friends etc… contact me if you would like me to 
 
 Having issues with the bot? Check out [my discord server](https://discord.gg/Pta3APY).
 [![Discord Chat](https://img.shields.io/discord/750784696283299911.svg)](https://discord.gg/Pta3APY)
+
 -----
 ## **License**
 
