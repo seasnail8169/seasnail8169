@@ -23,14 +23,13 @@ I like to do fun projects for friends etc… contact me if you would like me to 
 
 -----
 
-## **Support**
-
+### **Support**
 Having issues with the bot? Check out [my discord server](https://discord.gg/Pta3APY).
 [![Discord Chat](https://img.shields.io/discord/750784696283299911.svg)](https://discord.gg/Pta3APY)
 
 -----
-## **License**
 
+### **License**
 All of my work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
 To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/.
 
