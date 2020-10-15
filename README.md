@@ -1,14 +1,4 @@
-### Contact me:
-<p align="center">
-<a href="https://keybase.io/seasnail"><img alt="Keybase" src="https://img.shields.io/badge/Keybase-seasnail-blue?style=flat-square&logo=keybase"></a>
-<a href="mailto:snailcorp@gmail.com"><img alt="E-Mail" src="https://img.shields.io/badge/Email-snailcorp@gmail.com-blue?style=flat-square&logo=gmail"></a>
-<a href="https://discord.com/invite/Pta3APY"><img alt="Discord" src="https://img.shields.io/badge/Discord-Seasnail's shell-blue?style=flat-square&logo=discord"></a>
-</p>
-I like to do fun projects for friends etc… contact me if you would like me to make something for you or you would just like to chat.
-
------
-
-### Things i have made:
+### **Things i have made:**
 
 - [MoonSnail](https://github.com/seasnail8169/MoonSnail) - A discord bot used in many servers (over 1.5k members and *almost* verified :D).
 - [Template Minecraft/Discord Bot](https://github.com/seasnail8169/Template-Minecraft-Discord-Bot) - A minecraft and discord chat bot template designed for use on 2b2t.org.
@@ -23,9 +13,13 @@ I like to do fun projects for friends etc… contact me if you would like me to 
 
 -----
 
-### **Support**
-Having issues with the bot? Check out [my discord server](https://discord.gg/Pta3APY).
-[![Discord Chat](https://img.shields.io/discord/750784696283299911.svg)](https://discord.gg/Pta3APY)
+### **Support/Contact**
+<p align="center">
+<a href="https://keybase.io/seasnail"><img alt="Keybase" src="https://img.shields.io/badge/Keybase-seasnail-blue?style=flat-square&logo=keybase"></a>
+<a href="mailto:snailcorp@gmail.com"><img alt="E-Mail" src="https://img.shields.io/badge/Email-snailcorp@gmail.com-blue?style=flat-square&logo=gmail"></a>
+<a href="https://discord.com/invite/Pta3APY"><img alt="Discord" src="https://img.shields.io/badge/Discord-Seasnail's shell-blue?style=flat-square&logo=discord"></a>
+</p>
+I like to do fun projects for friends etc… contact me if you would like me to make something for you or you would just like to chat.
 
 -----
 
