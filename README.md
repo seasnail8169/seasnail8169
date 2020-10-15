@@ -19,3 +19,15 @@ I like to do fun projects for friends etc… contact me if you would like me to 
 <p align="center">
 <img alt="My github stats" src="https://github-readme-stats.vercel.app/api?username=seasnail8169&show_icons=true&theme=radical">
 </p>
+-----
+## **Support**
+
+Having issues with the bot? Check out [my discord server](https://discord.gg/Pta3APY).
+[![Discord Chat](https://img.shields.io/discord/750784696283299911.svg)](https://discord.gg/Pta3APY)
+-----
+## **License**
+
+All of my work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
+To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/.
+
+Copyright (c) 2020 seasnail8169
