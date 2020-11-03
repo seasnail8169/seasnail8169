@@ -2,7 +2,7 @@
 
 - [MoonSnail](https://github.com/seasnail8169/MoonSnail) - A discord bot used in many servers (over 1.5k members and *almost* verified :D).
 - [Template Minecraft/Discord Bot](https://github.com/seasnail8169/Template-Minecraft-Discord-Bot) - A minecraft and discord chat bot template designed for use on 2b2t.org.
-- [Meteor Client](https://github.com/seasnail8169/meatier-client) - A minecraft 1.16.3 fabric utility mod. NOTE: I am not the creator, only contributor!! The official repository can be found [here.](https://github.com/MineGame159/meteor-client)
+- [Meteor Client](https://github.com/seasnail8169/meteor-client) - A minecraft 1.16.3 fabric utility mod. NOTE: I am not the creator, only contributor!! The official repository can be found [here.](https://github.com/MeteorDevelopment/meteor-client)
 - Various discord utilities that are private for now…
 
 -----
