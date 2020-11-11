@@ -11,7 +11,7 @@ I have also created these projects unrelated to Meteor Development:
 ### **Support/Contact**
 <p align="center">
 <a href="mailto:snailcorp@gmail.com"><img alt="E-Mail" src="https://img.shields.io/badge/Email-snailcorp@gmail.com-blue?style=flat-square&logo=gmail"></a>
-<a href="https://discord.com/invite/Pta3APY"><img alt="Discord" src="https://img.shields.io/badge/Discord-seasnail's shell-blue?style=flat-square&logo=discord"></a>
+<a href="https://discord.com/invite/Pta3APY"><img alt="Discord" src="https://img.shields.io/badge/Discord-seasnail's shell-blue?style=flat-square&logo=discord"</a>
 </p>
 
 I like to do fun projects for friends and random things im interested in. Joining my [discord server](https://discord.com/invite/Pta3APY) is the best way to contact me and my community :D
