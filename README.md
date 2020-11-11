@@ -2,7 +2,7 @@
 
 I am a member of the [Meteor Development](https://github.com/MeteorDevelopment) organization responsible for:
 - [Meteor Client](https://github.com/MeteorDevelopment/meteor-client) A Minecraft 1.16.4 fabric utility client.
-- [Meteor Server](https://github.com/MeteorDevelopment/meteor-server) A webserver that contains and hosts the MeteorBot discord bot which powers our [discord server](https://meteorclient.com/discord) as well as controlling the database for Meteor accounts and hosting the Meteor Development [Website](https://meteorclient.com) which was also designed and created by me. Original repo can be found here[here](https://github.com/seasnail8169/meteor-website) but the actual website is hosted on the [Meteor Server](https://github.com/MeteorDevelopment/meteor-server).
+- [Meteor Server](https://github.com/MeteorDevelopment/meteor-server) A webserver that contains and hosts the MeteorBot discord bot which powers our [discord server](https://meteorclient.com/discord) as well as controlling the database for Meteor accounts and hosting the Meteor Development [Website](https://meteorclient.com) which was also designed and created by me. Original repo can be found [here](https://github.com/seasnail8169/meteor-website) but the actual website is hosted on the [Meteor Server](https://github.com/MeteorDevelopment/meteor-server).
 
 I have also created these projects unrelated to Meteor Development:
 - [MoonSnail](https://github.com/seasnail8169/MoonSnail)
