@@ -6,6 +6,7 @@ I am a member of the [Meteor Development](https://github.com/MeteorDevelopment) 
 
 I have also created these projects unrelated to Meteor Development:
 - [MoonSnail](https://github.com/seasnail8169/MoonSnail)
+- [SnailPack](https://github.com/seasnail8169/SnailPack)
 -----
 
 ### **Support/Contact**
