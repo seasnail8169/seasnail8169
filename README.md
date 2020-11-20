@@ -28,6 +28,7 @@ Copyright (c) 2020 seasnail8169
 -----
 
 <p align="center">
-<img alt="My github stats" src="https://github-readme-stats.vercel.app/api?username=seasnail8169&show_icons=true&theme=radical">
+<img alt="My repo stats" src="https://github-readme-stats.vercel.app/api?username=seasnail8169&show_icons=true&theme=radical">
+<img alt="My lang stats" src="https://github-readme-stats.vercel.app/api/top-langs/?username=seasnail8169&theme=radical" />
 </p>
 
