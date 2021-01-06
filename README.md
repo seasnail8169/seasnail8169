@@ -4,7 +4,7 @@ Stuff to do with [Meteor](https://github.com/MeteorDevelopment):
 - [Meteor Client](https://github.com/MeteorDevelopment/meteor-client) A Minecraft 1.16.4 fabric utility client.
 - [Meteor Server](https://github.com/MeteorDevelopment/meteor-server) A server for Meteors Discord bot, website and API.
 
-- [SnailPack](https://github.com/seasnail8169/SnailPack)
+[SnailPack](https://github.com/seasnail8169/SnailPack)
 -----
 
 ### **Support/Contact**
