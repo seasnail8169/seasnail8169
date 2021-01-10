@@ -1,15 +1,15 @@
 <p align="center">
   Stuff to do with <a href="https://github.com/MeteorDevelopment">Meteor</a>: <br>
   <ul>
-    <li><a href="https://github.com/MeteorDevelopment/meteor-client">Meteor Client</a> | A Minecraft 1.16.4 fabric utility client.<li>
-    <li><a href="https://github.com/MeteorDevelopment/meteor-server">Meteor Server</a> | A server for Meteors Discord bot, website and API.<li>
+    <li><a href="https://github.com/MeteorDevelopment/meteor-client">Meteor Client</a> | A Minecraft 1.16.4 fabric utility client.</li>
+    <li><a href="https://github.com/MeteorDevelopment/meteor-server">Meteor Server</a> | A server for Meteors Discord bot, website and API.</li>
   </ul>
 </p>
 
 <p align="center">
   Other Stuff:<br>
   <ul>
-    <li><a href="https://github.com/seasnail8169/SnailPack">SnailPack</a> | A Minecraft 1.16.4 cpvp resource pack.<li>
+    <li><a href="https://github.com/seasnail8169/SnailPack">SnailPack</a> | A Minecraft 1.16.4 cpvp resource pack.</li>
   </ul>
 </p>
 
