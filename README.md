@@ -10,6 +10,7 @@
   Other Stuff:<br>
   <ul>
     <li><a href="https://github.com/seasnail8169/SnailPack">SnailPack</a> | A Minecraft 1.16.4 cpvp resource pack.</li>
+    <li><a href="https://github.com/seasnail8169/seasnail8169">SnaleAPI</a> | An API that returns a random image of a snail from the repo.</li>
   </ul>
 </p>
 
