@@ -9,7 +9,10 @@ public class WebServer {
     public static File snales;
 
     public static void init() {
-        port(getHerokuAssignedPort());
+        ProcessBuilder processBuilder = new ProcessBuilder();
+        processBuilder.environment().putIfAbsent("PORT", "8082");
+
+        port(Integer.parseInt(processBuilder.environment().get("PORT")));
 
         staticFiles.externalLocation(new File(System.getProperty("user.dir"), "src/main/resources/public").getAbsolutePath());
         staticFiles.registerMimeType("jpg", "image/jpeg");
@@ -19,11 +22,5 @@ public class WebServer {
         get("/api/snale", RouteController.HANDLE_SNALE_API);
         get("/discord", RouteController.HANDLE_DISCORD);
         get("/github", RouteController.HANDLE_GITHUB);
-    }
-
-    private static int getHerokuAssignedPort() {
-        ProcessBuilder processBuilder = new ProcessBuilder();
-        if (processBuilder.environment().get("PORT") != null) return Integer.parseInt(processBuilder.environment().get("PORT"));
-        return 8082;
     }
 }

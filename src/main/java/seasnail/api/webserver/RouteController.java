@@ -31,7 +31,7 @@ public class RouteController {
 
     private static String getUrl() {
         ProcessBuilder processBuilder = new ProcessBuilder();
-        if (processBuilder.environment().get("PORT") == null) return "https://localhost:8082";
+        if (processBuilder.environment().get("PORT") == null) return "http://localhost:8082";
         else return "https://www.seasnail.xyz";
     }
 

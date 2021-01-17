@@ -1,2 +1,4 @@
-package seasnail.api.snailbot;public class SnailBOT {
+package seasnail.api.snailbot;
+
+public class SnailBOT {
 }
