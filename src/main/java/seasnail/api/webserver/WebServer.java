@@ -14,6 +14,8 @@ public class WebServer {
 
         port(Integer.parseInt(processBuilder.environment().get("PORT")));
 
+        System.out.println(Integer.parseInt(processBuilder.environment().get("PORT")));
+
         staticFiles.externalLocation(new File(System.getProperty("user.dir"), "src/main/resources/public").getAbsolutePath());
         staticFiles.registerMimeType("jpg", "image/jpeg");
 
