@@ -1,5 +1,6 @@
 package seasnail.api.webserver;
 
+import seasnail.api.Config;
 import spark.Route;
 
 import java.util.concurrent.ThreadLocalRandom;
@@ -30,8 +31,7 @@ public class RouteController {
     };
 
     private static String getUrl() {
-        ProcessBuilder processBuilder = new ProcessBuilder();
-        if (processBuilder.environment().get("PORT") == null) return "http://localhost:8082";
+        if (Config.LOCAL) return "http://localhost:8082";
         else return "https://www.seasnail.xyz";
     }
 
