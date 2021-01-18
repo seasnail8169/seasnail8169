@@ -22,4 +22,9 @@ public class WebServer {
         get("/discord", RouteController.HANDLE_DISCORD);
         get("/github", RouteController.HANDLE_GITHUB);
     }
+
+    public static void close() {
+        stop();
+        awaitStop();
+    }
 }
