@@ -34,6 +34,9 @@ dependencies {
 	implementation 'net.dv8tion:JDA:4.2.0_168'
 	implementation 'ch.qos.logback:logback-classic:1.2.3'
 	implementation 'org.mongodb:mongodb-driver-sync:4.1.0-beta2'
+	implementation 'com.konghq:unirest-java:3.11.02'
+	implementation 'org.reflections:reflections:0.9.12'
+
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	implementation 'org.springframework.boot:spring-boot-starter-jdbc'
 	implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
