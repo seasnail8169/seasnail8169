@@ -1,5 +1,7 @@
 package seasnail.api.webserver;
 
+import seasnail.api.Config;
+
 import java.io.File;
 
 import static spark.Spark.*;
@@ -9,12 +11,7 @@ public class WebServer {
     public static File snales;
 
     public static void init() {
-        ProcessBuilder processBuilder = new ProcessBuilder();
-        processBuilder.environment().putIfAbsent("PORT", "8082");
-
-        port(Integer.parseInt(processBuilder.environment().get("PORT")));
-
-        System.out.println(Integer.parseInt(processBuilder.environment().get("PORT")));
+        port(Config.PORT);
 
         staticFiles.externalLocation(new File(System.getProperty("user.dir"), "src/main/resources/public").getAbsolutePath());
         staticFiles.registerMimeType("jpg", "image/jpeg");

@@ -8,6 +8,6 @@
 *.iml
 *.ipr
 /out/
+
 private-config.properties
 .DS_Store
-.env
