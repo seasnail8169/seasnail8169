@@ -11,18 +11,17 @@ public class Config {
 
     public static void init() {
         try {
-            ProcessBuilder processBuilder = new ProcessBuilder();
             Properties properties = new Properties();
 
             InputStream in = new FileInputStream("private-config.properties");
             properties.load(in);
             in.close();
 
-            processBuilder.environment().putIfAbsent("TOKEN", properties.getProperty("TOKEN"));
-            processBuilder.environment().putIfAbsent("PORT", "8082");
+            System.getenv().putIfAbsent("TOKEN", properties.getProperty("TOKEN"));
+            System.getenv().putIfAbsent("PORT", "8082");
 
-            DISCORD_TOKEN = processBuilder.environment().get("TOKEN");
-            PORT = Integer.parseInt(processBuilder.environment().get("PORT"));
+            DISCORD_TOKEN = System.getenv("TOKEN");
+            PORT = Integer.parseInt(System.getenv("PORT"));
 
             System.out.println("TOKEN: " + DISCORD_TOKEN);
             System.out.println("PORT: " + PORT);
