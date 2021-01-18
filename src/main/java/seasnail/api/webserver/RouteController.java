@@ -5,8 +5,6 @@ import spark.Route;
 import java.util.concurrent.ThreadLocalRandom;
 
 public class RouteController {
-    public static Route HANDLE_SNALE_API = (request, response) -> getUrl() + "/snales/" + getRandomSnale();
-
 /*
     public static Route HANDLE_SNALE = (request, response) -> {
         ByteArrayOutputStream stream = new ByteArrayOutputStream();
@@ -18,6 +16,8 @@ public class RouteController {
         return stream.toByteArray();
     };
 */
+
+    public static Route HANDLE_SNALE_API = (request, response) -> getUrl() + "/snales/" + getRandomSnale();
 
     public static Route HANDLE_DISCORD = (request, response) -> {
         response.redirect("https://discord.com/invite/Pta3APY");

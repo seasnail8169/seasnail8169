@@ -1,11 +1,10 @@
 package seasnail.api;
 
+import seasnail.api.webserver.WebServer;
+
 public class Main {
   public static void main(String[] args) {
-    System.out.println(System.getenv("TOKEN"));
-    System.out.println(System.getenv("PORT"));
-
-//    Config.init();
-//    WebServer.init();
+    Config.init();
+    WebServer.init();
   }
 }
