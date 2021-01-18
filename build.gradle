@@ -1,7 +1,21 @@
+buildscript {
+	ext {
+		springBootVersion = '2.3.0.RELEASE'
+	}
+	repositories {
+		mavenCentral()
+	}
+	dependencies {
+		classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
+	}
+}
+
 plugins {
 	id 'java'
 	id 'application'
 	id 'com.github.johnrengelman.shadow' version '6.0.0'
+	id 'org.springframework.boot'
+	id 'io.spring.dependency-management'
 }
 
 repositories {
