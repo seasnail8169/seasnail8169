@@ -15,10 +15,12 @@
 </p>
 
 <p align="center">
-<a href="https://discord.com/invite/Pta3APY"><img alt="Discord" src="https://img.shields.io/badge/Discord-seasnail's shell-blue?style=flat-square&logo=discord" </a>
+  <a href="https://discord.com/invite/Pta3APY"><img alt="Discord" src="https://img.shields.io/badge/Discord-seasnail's shell-blue?style=flat-square&logo=discord"/>
+   <img src="https://komarev.com/ghpvc/?username=seasnail8169" alt="seasnail8169"/>
 </p>
 
 <p align="center">
 <img alt="My repo stats" src="https://github-readme-stats.vercel.app/api?username=seasnail8169&show_icons=true&theme=radical">
 </p>
 
+![](https://hit.yhype.me/github/profile?user_id=17166139)
