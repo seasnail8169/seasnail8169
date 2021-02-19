@@ -10,7 +10,7 @@
 <p align="center">
   Other Stuff:<br>
   <ul>
-    <li><a href="https://github.com/seasnail8169/SnailPack">SnailPack</a> | A Minecraft 1.16.4 cpvp resource pack.</li>
+    <li><a href="https://github.com/seasnail8169/SnailPack">SnailPack</a> | A Minecraft 1.16.5 cpvp resource pack.</li>
     <li><a href="https://github.com/seasnail8169/seasnail8169">SnaleAPI</a> | An API that returns a random image of a snail from the repo.</li>
         <li><a href="https://konasclient.com">konasclient.com</a> | The website of Konas Client, written by me.</li>
   </ul>
