@@ -1,7 +1,7 @@
 <p align="center">
   Stuff to do with <a href="https://github.com/MeteorDevelopment">Meteor</a>: <br>
   <ul>
-    <li><a href="https://github.com/MeteorDevelopment/meteor-client">Meteor Client</a> | A Minecraft 1.16.4 fabric utility client.</li>
+    <li><a href="https://github.com/MeteorDevelopment/meteor-client">Meteor Client</a> | A Minecraft 1.16.5 fabric utility client.</li>
     <li><a href="https://github.com/MeteorDevelopment/meteor-server">Meteor Server</a> | A server for Meteors Discord bot, website and API.</li>
   </ul>
 </p>
