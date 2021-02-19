@@ -3,6 +3,7 @@
   <ul>
     <li><a href="https://github.com/MeteorDevelopment/meteor-client">Meteor Client</a> | A Minecraft 1.16.5 fabric utility client.</li>
     <li><a href="https://github.com/MeteorDevelopment/meteor-server">Meteor Server</a> | A server for Meteors Discord bot, website and API.</li>
+    <li><a href="https://meteorclient.com">meteorclient.com</a> | The website of Meteor Client.</li>
   </ul>
 </p>
 
@@ -11,7 +12,7 @@
   <ul>
     <li><a href="https://github.com/seasnail8169/SnailPack">SnailPack</a> | A Minecraft 1.16.4 cpvp resource pack.</li>
     <li><a href="https://github.com/seasnail8169/seasnail8169">SnaleAPI</a> | An API that returns a random image of a snail from the repo.</li>
-        <li><a href="https://konasclient.com">Konas Website</a> | The website of Konas Client.</li>
+        <li><a href="https://konasclient.com">konasclient.com</a> | The website of Konas Client.</li>
   </ul>
 </p>
 
