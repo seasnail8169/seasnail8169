@@ -1,10 +1,12 @@
-package seasnail.api.snailbot.commands;
+package dev.seasnail.api.managers;
 
+import dev.seasnail.api.commands.Category;
+import dev.seasnail.api.commands.Command;
 import net.dv8tion.jda.api.events.message.MessageReceivedEvent;
-import seasnail.api.SnailBot;
-import seasnail.api.snailbot.commands.admin.EmbedCommand;
-import seasnail.api.snailbot.commands.admin.StatusCommand;
-import seasnail.api.snailbot.commands.info.HelpCommand;
+import dev.seasnail.api.SnailBot;
+import dev.seasnail.api.commands.admin.EmbedCommand;
+import dev.seasnail.api.commands.admin.StatusCommand;
+import dev.seasnail.api.commands.info.HelpCommand;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -12,7 +14,7 @@ import java.util.List;
 import java.util.Map;
 
 @SuppressWarnings("deprecation")
-public class Commands {
+public class CommandManager {
 
     private static final Map<Class<? extends Command>, Command> commands = new HashMap<>();
     private static final Map<Category, List<Command>> categories = new HashMap<>();

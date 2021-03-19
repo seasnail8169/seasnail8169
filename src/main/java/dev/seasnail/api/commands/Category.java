@@ -1,4 +1,4 @@
-package seasnail.api.snailbot.commands;
+package dev.seasnail.api.commands;
 
 public enum Category {
     Info,

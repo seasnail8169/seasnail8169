@@ -1,4 +1,4 @@
-package seasnail.api;
+package dev.seasnail.api;
 
 public class Config {
 
@@ -7,11 +7,10 @@ public class Config {
 
     public static boolean isLocal;
 
-    public static void init(String token, int port) {
+    public static void initLocal(String token) {
         DISCORD_TOKEN = token;
-        PORT = port;
-
-        isLocal = PORT == 8082;
+        PORT = 8082;
+        isLocal = true;
     }
 
     public static void init() {

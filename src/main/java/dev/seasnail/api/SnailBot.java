@@ -1,5 +1,6 @@
-package seasnail.api;
+package dev.seasnail.api;
 
+import dev.seasnail.api.managers.CommandManager;
 import net.dv8tion.jda.api.JDABuilder;
 import net.dv8tion.jda.api.OnlineStatus;
 import net.dv8tion.jda.api.entities.Activity;
@@ -14,8 +15,6 @@ import net.dv8tion.jda.api.requests.GatewayIntent;
 import net.dv8tion.jda.api.utils.cache.CacheFlag;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import seasnail.api.snailbot.commands.Commands;
-import seasnail.api.webserver.WebServer;
 
 import javax.annotation.Nonnull;
 import javax.security.auth.login.LoginException;
@@ -36,18 +35,25 @@ public class SnailBot extends ListenerAdapter {
 
   public static void main(String[] args) {
     try {
-      if (System.getenv("TOKEN") == null) Config.init(args[0], Integer.parseInt(args[1]));
+
+      //Config
+      if (System.getenv("PORT") == null) Config.initLocal(args[0]);
       else Config.init();
-      Commands.init();
+
+      //API
       WebServer.init();
+
+      //JDA
       JDABuilder.createDefault(Config.DISCORD_TOKEN)
               .enableIntents(GatewayIntent.GUILD_MEMBERS)
               .enableCache(CacheFlag.EMOTE)
               .addEventListeners(new SnailBot())
               .build();
-    } catch (LoginException e) {
-      e.printStackTrace();
-    }
+
+      //Commands
+      CommandManager.init();
+
+    } catch (LoginException ignored) {}
   }
 
   @Override
@@ -74,7 +80,7 @@ public class SnailBot extends ListenerAdapter {
   @Override
   public void onMessageReceived(@Nonnull MessageReceivedEvent event) {
     if (!PROCESS_DISCORD_EVENTS || event.getAuthor().isBot() || !event.isFromType(ChannelType.TEXT)) return;
-    Commands.onMessage(event);
+    CommandManager.onMessage(event);
   }
 
   public static boolean isUserAdmin(User user) {

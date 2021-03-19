@@ -1,11 +1,12 @@
-package seasnail.api.webserver;
+package dev.seasnail.api.managers;
 
-import seasnail.api.Config;
+import dev.seasnail.api.Config;
+import dev.seasnail.api.WebServer;
 import spark.Route;
 
 import java.util.concurrent.ThreadLocalRandom;
 
-public class RouteController {
+public class RouteManager {
 
     public static Route HANDLE_SNALE_API = (request, response) -> {
         StringBuilder URL = new StringBuilder();

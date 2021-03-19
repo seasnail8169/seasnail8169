@@ -1,4 +1,4 @@
-package seasnail.api.snailbot.commands;
+package dev.seasnail.api.commands;
 
 import net.dv8tion.jda.api.events.message.MessageReceivedEvent;
 

@@ -1,9 +1,9 @@
-package seasnail.api.snailbot.utils;
+package dev.seasnail.api.utils;
 
+import dev.seasnail.api.SnailBot;
 import net.dv8tion.jda.api.EmbedBuilder;
 import net.dv8tion.jda.api.entities.MessageEmbed;
 import org.jetbrains.annotations.Nullable;
-import seasnail.api.SnailBot;
 
 public class JDAUtils {
 

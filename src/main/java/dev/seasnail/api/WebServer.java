@@ -1,11 +1,10 @@
-package seasnail.api.webserver;
+package dev.seasnail.api;
 
-import seasnail.api.Config;
+import dev.seasnail.api.managers.RouteManager;
 
 import java.io.File;
 
 import static spark.Spark.*;
-import static spark.Spark.get;
 
 public class WebServer {
     public static File snales;
@@ -18,11 +17,11 @@ public class WebServer {
 
         snales = new File(System.getProperty("user.dir"), "src/main/resources/public/snales");
 
-        get("/api/snale", RouteController.HANDLE_SNALE_API);
-        get("/discord", RouteController.HANDLE_DISCORD);
-        get("/github", RouteController.HANDLE_GITHUB);
-        get("/oops", RouteController.HANDLE_OOPS);
-        notFound(RouteController.HANDLE_OOPS);
+        get("/api/snale", RouteManager.HANDLE_SNALE_API);
+        get("/discord", RouteManager.HANDLE_DISCORD);
+        get("/github", RouteManager.HANDLE_GITHUB);
+        get("/oops", RouteManager.HANDLE_OOPS);
+        notFound(RouteManager.HANDLE_OOPS);
     }
 
     public static void close() {

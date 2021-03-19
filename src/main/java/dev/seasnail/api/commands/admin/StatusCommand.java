@@ -1,11 +1,11 @@
-package seasnail.api.snailbot.commands.admin;
+package dev.seasnail.api.commands.admin;
 
+import dev.seasnail.api.SnailBot;
 import net.dv8tion.jda.api.entities.Activity;
 import net.dv8tion.jda.api.events.message.MessageReceivedEvent;
-import seasnail.api.SnailBot;
-import seasnail.api.snailbot.commands.Category;
-import seasnail.api.snailbot.commands.Command;
-import seasnail.api.snailbot.utils.JDAUtils;
+import dev.seasnail.api.commands.Category;
+import dev.seasnail.api.commands.Command;
+import dev.seasnail.api.utils.JDAUtils;
 
 public class StatusCommand extends Command {
 
