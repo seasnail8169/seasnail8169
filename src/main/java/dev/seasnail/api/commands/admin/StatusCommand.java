@@ -5,7 +5,7 @@ import net.dv8tion.jda.api.entities.Activity;
 import net.dv8tion.jda.api.events.message.MessageReceivedEvent;
 import dev.seasnail.api.commands.Category;
 import dev.seasnail.api.commands.Command;
-import dev.seasnail.api.utils.JDAUtils;
+import dev.seasnail.api.utils.EmbedUtils;
 
 public class StatusCommand extends Command {
 
@@ -19,7 +19,7 @@ public class StatusCommand extends Command {
         Activity activity = null;
 
         if (split.length == 1) {
-            event.getMessage().getChannel().sendMessage(JDAUtils.embed(String.format("Current status is: `%s`", SnailBot.JDA.getPresence().getActivity().getName()))).queue();
+            event.getMessage().getChannel().sendMessage(EmbedUtils.embed(String.format("Current status is: `%s`", SnailBot.JDA.getPresence().getActivity().getName()))).queue();
             return;
         }
 
@@ -43,7 +43,7 @@ public class StatusCommand extends Command {
         SnailBot.JDA.getPresence().setActivity(activity);
 
         event.getMessage().delete().queue();
-        event.getMessage().getChannel().sendMessage(JDAUtils.embed(String.format("Updated status to: `%s`", action))).queue();
+        event.getMessage().getChannel().sendMessage(EmbedUtils.embed(String.format("Updated status to: `%s`", action))).queue();
     }
 
 }

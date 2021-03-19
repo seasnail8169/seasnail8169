@@ -4,7 +4,7 @@ import dev.seasnail.api.managers.CommandManager;
 import net.dv8tion.jda.api.events.message.MessageReceivedEvent;
 import dev.seasnail.api.commands.Category;
 import dev.seasnail.api.commands.Command;
-import dev.seasnail.api.utils.JDAUtils;
+import dev.seasnail.api.utils.EmbedUtils;
 
 public class HelpCommand extends Command {
 
@@ -15,7 +15,7 @@ public class HelpCommand extends Command {
     @Override
     public void run(MessageReceivedEvent event) {
         event.getMessage().delete().queue();
-        event.getAuthor().openPrivateChannel().complete().sendMessage(JDAUtils.embed("**Commands**", CommandManager.HELP, true)).queue();
+        event.getAuthor().openPrivateChannel().complete().sendMessage(EmbedUtils.embed("**Commands**", CommandManager.HELP, true)).queue();
     }
 
 }

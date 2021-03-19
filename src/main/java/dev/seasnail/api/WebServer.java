@@ -7,6 +7,7 @@ import java.io.File;
 import static spark.Spark.*;
 
 public class WebServer {
+
     public static File snales;
 
     public static void init() {
@@ -28,4 +29,5 @@ public class WebServer {
         stop();
         awaitStop();
     }
+
 }
