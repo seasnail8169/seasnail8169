@@ -14,7 +14,7 @@ public class RouteManager {
         if (Config.isLocal) URL.append("http://localhost:8082");
         else URL.append("https://www.seasnail.xyz");
 
-        URL.append("\"/snales/\"");
+        URL.append("/snales/");
 
         String[] snaleList = WebServer.snales.list();
         if (snaleList != null) URL.append(snaleList[ThreadLocalRandom.current().nextInt(0, snaleList.length)]);
