@@ -1,11 +1,10 @@
 package seasnail.api.snailbot.commands;
 
 import net.dv8tion.jda.api.events.message.MessageReceivedEvent;
-import org.reflections.Reflections;
-import org.reflections.scanners.SubTypesScanner;
-import org.reflections.util.ClasspathHelper;
-import org.reflections.util.ConfigurationBuilder;
-import seasnail.api.Main;
+import seasnail.api.SnailBot;
+import seasnail.api.snailbot.commands.admin.EmbedCommand;
+import seasnail.api.snailbot.commands.admin.StatusCommand;
+import seasnail.api.snailbot.commands.info.HelpCommand;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -14,34 +13,36 @@ import java.util.Map;
 
 @SuppressWarnings("deprecation")
 public class Commands {
-    public static String HELP;
 
-    private static final Map<String, Command> commands = new HashMap<>();
+    private static final Map<Class<? extends Command>, Command> commands = new HashMap<>();
     private static final Map<Category, List<Command>> categories = new HashMap<>();
 
-    public static void init() {
-        Reflections reflections = new Reflections(new ConfigurationBuilder()
-                .setUrls(ClasspathHelper.forPackage("seasnail.api.snailbot.commands"))
-                .setScanners(new SubTypesScanner())
-        );
+    public static String HELP;
 
-        for (Class<? extends Command> klass : reflections.getSubTypesOf(Command.class)) {
-            if (klass.getConstructors()[0].getParameterCount() == 0) {
-                try {
-                    add(klass.newInstance());
-                } catch (InstantiationException | IllegalAccessException e) {
-                    e.printStackTrace();
-                }
-            }
-        }
+    public static void init() {
+        add(new HelpCommand());
+        add(new EmbedCommand());
+        add(new StatusCommand());
+
+        SnailBot.LOG.info("Loaded {} commands", commands.size());
 
         generateHelp();
+    }
 
-        Main.LOG.info("Loaded {} commands", commands.size());
+    public static Command get(String name) {
+        for (Command command : commands.values()) {
+            if (command.name.equalsIgnoreCase(name)) return command;
+        }
+        return null;
+    }
+
+    @SuppressWarnings("unchecked")
+    public static <T extends Command> T get(Class<T> klass) {
+        return (T) commands.get(klass);
     }
 
     public static void add(Command command) {
-        commands.put(command.name, command);
+        commands.put(command.getClass(), command);
         categories.computeIfAbsent(command.category, category -> new ArrayList<>()).add(command);
     }
 
@@ -51,8 +52,11 @@ public class Commands {
         if (str.startsWith("%")) {
             String name = str.substring(1).split(" ")[0];
 
-            Command command = commands.get(name);
-            if (command != null) command.run(event);
+            Command command = get(name);
+
+            if (command == null) return;
+
+            if (command.category != Category.Admin || SnailBot.isUserAdmin(event.getAuthor())) command.run(event);
         }
     }
 
@@ -76,4 +80,5 @@ public class Commands {
 
         HELP = sb.toString();
     }
+
 }

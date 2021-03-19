@@ -6,19 +6,21 @@ import spark.Route;
 import java.util.concurrent.ThreadLocalRandom;
 
 public class RouteController {
-/*
-    public static Route HANDLE_SNALE = (request, response) -> {
-        ByteArrayOutputStream stream = new ByteArrayOutputStream();
-        BufferedImage bufferedImage = ImageIO.read(new File(System.getProperty("user.dir") + "public/snales/" + getRandomSnale()));
 
-        ImageIO.write(bufferedImage, "jpg", stream);
-        stream.flush();
+    public static Route HANDLE_SNALE_API = (request, response) -> {
+        StringBuilder URL = new StringBuilder();
 
-        return stream.toByteArray();
+        if (Config.isLocal) URL.append("http://localhost:8082");
+        else URL.append("https://www.seasnail.xyz");
+
+        URL.append("\"/snales/\"");
+
+        String[] snaleList = WebServer.snales.list();
+        if (snaleList != null) URL.append(snaleList[ThreadLocalRandom.current().nextInt(0, snaleList.length)]);
+        else URL.append("oops");
+
+        return URL.toString();
     };
-*/
-
-    public static Route HANDLE_SNALE_API = (request, response) -> getUrl() + "/snales/" + getRandomSnale();
 
     public static Route HANDLE_DISCORD = (request, response) -> {
         response.redirect("https://discord.com/invite/Pta3APY");
@@ -30,13 +32,10 @@ public class RouteController {
         return null;
     };
 
-    private static String getUrl() {
-        if (Config.LOCAL) return "http://localhost:8082";
-        else return "https://www.seasnail.xyz";
-    }
 
-    private static String getRandomSnale() {
-        String[] snaleList = WebServer.snales.list();
-        return snaleList == null ? "oops" : snaleList[ThreadLocalRandom.current().nextInt(0, snaleList.length)];
-    }
+    public static Route HANDLE_OOPS = (request, response) -> {
+        response.redirect("https://media.tenor.com/videos/884eb58c19e15fb7d89e73a140f71b3e/mp4");
+        return null;
+    };
+
 }

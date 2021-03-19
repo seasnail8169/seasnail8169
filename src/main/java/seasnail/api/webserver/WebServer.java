@@ -21,6 +21,8 @@ public class WebServer {
         get("/api/snale", RouteController.HANDLE_SNALE_API);
         get("/discord", RouteController.HANDLE_DISCORD);
         get("/github", RouteController.HANDLE_GITHUB);
+        get("/oops", RouteController.HANDLE_OOPS);
+        notFound(RouteController.HANDLE_OOPS);
     }
 
     public static void close() {

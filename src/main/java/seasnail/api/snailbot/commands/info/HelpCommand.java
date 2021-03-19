@@ -7,13 +7,15 @@ import seasnail.api.snailbot.commands.Commands;
 import seasnail.api.snailbot.utils.JDAUtils;
 
 public class HelpCommand extends Command {
+
     public HelpCommand() {
-        super(Category.Info, "Sends you this message.", "help");
+        super(Category.Info, "help", "Sends you this message.");
     }
 
     @Override
     public void run(MessageReceivedEvent event) {
         event.getMessage().delete().queue();
-        event.getAuthor().openPrivateChannel().complete().sendMessage(JDAUtils.embedTitle("**SnaleBOT Commands**", Commands.HELP).build()).queue();
+        event.getAuthor().openPrivateChannel().complete().sendMessage(JDAUtils.embed("**Commands**", Commands.HELP, true)).queue();
     }
+
 }

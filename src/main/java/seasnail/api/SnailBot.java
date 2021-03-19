@@ -1,50 +1,48 @@
 package seasnail.api;
 
-import net.dv8tion.jda.api.JDA;
 import net.dv8tion.jda.api.JDABuilder;
-import net.dv8tion.jda.api.entities.*;
+import net.dv8tion.jda.api.OnlineStatus;
+import net.dv8tion.jda.api.entities.Activity;
+import net.dv8tion.jda.api.entities.ChannelType;
+import net.dv8tion.jda.api.entities.SelfUser;
+import net.dv8tion.jda.api.entities.User;
 import net.dv8tion.jda.api.events.ReadyEvent;
 import net.dv8tion.jda.api.events.ShutdownEvent;
 import net.dv8tion.jda.api.events.message.MessageReceivedEvent;
 import net.dv8tion.jda.api.hooks.ListenerAdapter;
 import net.dv8tion.jda.api.requests.GatewayIntent;
 import net.dv8tion.jda.api.utils.cache.CacheFlag;
-import net.dv8tion.jda.internal.utils.JDALogger;
-import org.slf4j.Logger;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import seasnail.api.snailbot.commands.Commands;
 import seasnail.api.webserver.WebServer;
 
 import javax.annotation.Nonnull;
 import javax.security.auth.login.LoginException;
+import java.awt.*;
 
-public class Main extends ListenerAdapter {
+public class SnailBot extends ListenerAdapter {
 
-  public static final Logger LOG = JDALogger.getLog("MeteorBot");
+  public static final Logger LOG = LogManager.getLogger();
 
-  public static JDA JDA;
+  public static final Color COLOR = new Color(255, 247, 145);
+  public static String IMAGE_URL;
 
-  public static User SEASNAIL;
-
-  public static Guild SNALELAND;
-  public static Role SNALE_MOD;
-
-//  public static Guild METEOR;
-//  public static Role METEOR_DEV;
-//  public static Role METEOR_MOD;
-
-
+  public static net.dv8tion.jda.api.JDA JDA;
+  public static User MINEGAME, SEASNAIL;
+  public static SelfUser BOT;
 
   public static boolean PROCESS_DISCORD_EVENTS = true;
 
   public static void main(String[] args) {
     try {
-      Config.init();
+      Config.init(args[0], Integer.parseInt(args[1]));
       Commands.init();
       WebServer.init();
       JDABuilder.createDefault(Config.DISCORD_TOKEN)
               .enableIntents(GatewayIntent.GUILD_MEMBERS)
               .enableCache(CacheFlag.EMOTE)
-              .addEventListeners(new Main())
+              .addEventListeners(new SnailBot())
               .build();
     } catch (LoginException e) {
       e.printStackTrace();
@@ -54,13 +52,17 @@ public class Main extends ListenerAdapter {
   @Override
   public void onReady(@Nonnull ReadyEvent event) {
     JDA = event.getJDA();
-    event.getJDA().getPresence().setActivity(Activity.playing("Serving the Snale Kingdom!"));
 
-    SNALELAND = JDA.getGuildById(750784696283299911L);
-    SEASNAIL = JDA.getUserById(736954747122352208L);
-    if (SNALELAND != null) SNALE_MOD = SNALELAND.getRoleById(764168582241189909L);
+    JDA.getPresence().setActivity(Activity.playing("mmm"));
+    JDA.getPresence().setStatus(OnlineStatus.DO_NOT_DISTURB);
 
-    LOG.info("SnaleBot has started");
+    MINEGAME = JDA.retrieveUserById(205708530408357898L).complete();
+    SEASNAIL = JDA.retrieveUserById(736954747122352208L).complete();
+    BOT = JDA.getSelfUser();
+
+    IMAGE_URL = BOT.getAvatarUrl();
+
+    LOG.info("Snail Bot has started");
   }
 
   @Override
@@ -73,4 +75,9 @@ public class Main extends ListenerAdapter {
     if (!PROCESS_DISCORD_EVENTS || event.getAuthor().isBot() || !event.isFromType(ChannelType.TEXT)) return;
     Commands.onMessage(event);
   }
+
+  public static boolean isUserAdmin(User user) {
+    return user.getIdLong() == MINEGAME.getIdLong() || user.getIdLong() == SEASNAIL.getIdLong();
+  }
+
 }
