@@ -36,7 +36,8 @@ public class SnailBot extends ListenerAdapter {
 
   public static void main(String[] args) {
     try {
-      Config.init(args[0], Integer.parseInt(args[1]));
+      if (System.getenv("TOKEN") == null) Config.init(args[0], Integer.parseInt(args[1]));
+      else Config.init();
       Commands.init();
       WebServer.init();
       JDABuilder.createDefault(Config.DISCORD_TOKEN)
