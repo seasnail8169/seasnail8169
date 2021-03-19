@@ -1,1 +1,1 @@
-web: java -jar build/libs/snale-api-1.0.jar
+web: java -jar build/libs/snail-api-0.2.jar
