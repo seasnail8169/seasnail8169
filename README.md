@@ -12,7 +12,7 @@
 [seasnail.xyz](https://seasnail.xyz) | The domain that serves API requests.
 
 <p align="center">
-  <a href="https://discord.com/invite/Pta3APY"><img alt="Discord server widget" src="https://img.shields.io/badge/Join my discord-gray?style=flat-round&logo=discord"/>
+  <a href="https://discord.gg/JKBDwQK2"><img alt="Discord server widget" src="https://img.shields.io/badge/Join my discord-gray?style=flat-round&logo=discord"/>
    <img src="https://komarev.com/ghpvc/?username=seasnail8169" alt="seasnail8169"/>
 </p>
 
