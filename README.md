@@ -7,7 +7,6 @@
 [seasnail.xyz](https://seasnail.xyz) | [My backend](https://github.com/seasnail8169/snail-backend) java application that hosts my Discord Bot and Image API.
 
 <p align="center">
-  <a href="https://discord.gg/JKBDwQK2"><img alt="Discord server widget" src="https://img.shields.io/badge/Join my discord-gray?style=flat-round&logo=discord"/>
    <img src="https://komarev.com/ghpvc/?username=seasnail8169" alt="seasnail8169"/>
 </p>
 
