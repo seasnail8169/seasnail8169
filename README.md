@@ -20,4 +20,4 @@
   <li><a href="https://seasnail.xyz">seasnail.xyz</a> | <a href="https://github.com/seasnail8169/snail-backend">My backend</a> java application that hosts my Discord Bot and Image API.</li>
 </ul>
 
-![](https://hit.yhype.me/github/profile?user\_id=17166139)
+![](https://hit.yhype.me/github/profile?user_id=17166139)
