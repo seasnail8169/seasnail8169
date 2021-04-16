@@ -4,7 +4,7 @@
 
 <h1 align="center">
   seasnail8169<br>
-  <img src="https://komarev.com/ghpvc/?username=seasnail8169" alt="profile-views"/><br>
+  <!-- <img src="https://komarev.com/ghpvc/?username=seasnail8169" alt="profile-views"/><br> -->
 </h1>
 
 <p><strong><a href="https://github.com/MeteorDevelopment">Meteor</a> Projects:</strong></p>
