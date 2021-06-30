@@ -10,9 +10,9 @@
 
 <p><strong>Projects:</strong></p>
 <ul>
-  <li><a href="https://github.com/MeteorDevelopment/meteor-client">Meteor Client</a> | A Minecraft 1.16.5 fabric utility client.</li>
+  <li><a href="https://github.com/MeteorDevelopment/meteor-client">Meteor Client</a> | An advanced Minecraft 1.17 Fabric Utility Mod.</li>
   <li><a href="https://konasclient.com">Konas Client</a> | A paid Forge utility mod for 1.12.2.</li>
-  <li><a href="https://github.com/seasnail8169/snail-pack">Snail Pack</a> | A 1.16 crystal pvp resource pack.</li>
+  <li><a href="https://github.com/seasnail8169/snail-pack">Snail Pack</a> | A 1.17 crystal pvp resource pack.</li>
 </ul>
 
 ![](https://hit.yhype.me/github/profile?user_id=17166139)
