@@ -10,7 +10,7 @@
   <a href="https://discord.gg/bBGQZvd"><img src="https://img.shields.io/discord/689197705683140636?logo=discord" alt="Discord"/></a>
 </div>
 
-## Active Projects:
+## Projects:
 
 - [Meteor Client](https://github.com/MeteorDevelopment) | An advanced Minecraft 1.17 Fabric Utility Mod.
 - [Snail Pack](https://github.com/seasnail8169/snail-pack) | A 1.17 crystal pvp resource pack.
