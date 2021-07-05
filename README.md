@@ -18,12 +18,12 @@
 ## Activity
 
 <!--START_SECTION:activity-->
-1. 🗣 Commented on [#1174](https://github.com/MeteorDevelopment/meteor-client/issues/1174) in [MeteorDevelopment/meteor-client](https://github.com/MeteorDevelopment/meteor-client)
+1. ❗️ Closed issue [#1173](https://github.com/MeteorDevelopment/meteor-client/issues/1173) in [MeteorDevelopment/meteor-client](https://github.com/MeteorDevelopment/meteor-client)
 2. 🗣 Commented on [#1174](https://github.com/MeteorDevelopment/meteor-client/issues/1174) in [MeteorDevelopment/meteor-client](https://github.com/MeteorDevelopment/meteor-client)
-3. ❗️ Closed issue [#1161](https://github.com/MeteorDevelopment/meteor-client/issues/1161) in [MeteorDevelopment/meteor-client](https://github.com/MeteorDevelopment/meteor-client)
-4. 🗣 Commented on [#1158](https://github.com/MeteorDevelopment/meteor-client/issues/1158) in [MeteorDevelopment/meteor-client](https://github.com/MeteorDevelopment/meteor-client)
-5. ❗️ Closed issue [#1157](https://github.com/MeteorDevelopment/meteor-client/issues/1157) in [MeteorDevelopment/meteor-client](https://github.com/MeteorDevelopment/meteor-client)
-6. 🗣 Commented on [#1157](https://github.com/MeteorDevelopment/meteor-client/issues/1157) in [MeteorDevelopment/meteor-client](https://github.com/MeteorDevelopment/meteor-client)
-7. ❗️ Closed issue [#1155](https://github.com/MeteorDevelopment/meteor-client/issues/1155) in [MeteorDevelopment/meteor-client](https://github.com/MeteorDevelopment/meteor-client)
-8. 🗣 Commented on [#1155](https://github.com/MeteorDevelopment/meteor-client/issues/1155) in [MeteorDevelopment/meteor-client](https://github.com/MeteorDevelopment/meteor-client)
+3. 🗣 Commented on [#1174](https://github.com/MeteorDevelopment/meteor-client/issues/1174) in [MeteorDevelopment/meteor-client](https://github.com/MeteorDevelopment/meteor-client)
+4. ❗️ Closed issue [#1161](https://github.com/MeteorDevelopment/meteor-client/issues/1161) in [MeteorDevelopment/meteor-client](https://github.com/MeteorDevelopment/meteor-client)
+5. 🗣 Commented on [#1158](https://github.com/MeteorDevelopment/meteor-client/issues/1158) in [MeteorDevelopment/meteor-client](https://github.com/MeteorDevelopment/meteor-client)
+6. ❗️ Closed issue [#1157](https://github.com/MeteorDevelopment/meteor-client/issues/1157) in [MeteorDevelopment/meteor-client](https://github.com/MeteorDevelopment/meteor-client)
+7. 🗣 Commented on [#1157](https://github.com/MeteorDevelopment/meteor-client/issues/1157) in [MeteorDevelopment/meteor-client](https://github.com/MeteorDevelopment/meteor-client)
+8. ❗️ Closed issue [#1155](https://github.com/MeteorDevelopment/meteor-client/issues/1155) in [MeteorDevelopment/meteor-client](https://github.com/MeteorDevelopment/meteor-client)
 <!--END_SECTION:activity-->
