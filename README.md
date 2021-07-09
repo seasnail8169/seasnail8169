@@ -18,12 +18,12 @@
 ## Activity
 
 <!--START_SECTION:activity-->
-1. ❗️ Closed issue [#11](https://github.com/MeteorDevelopment/meteor-bot/issues/11) in [MeteorDevelopment/meteor-bot](https://github.com/MeteorDevelopment/meteor-bot)
-2. 🗣 Commented on [#11](https://github.com/MeteorDevelopment/meteor-bot/issues/11) in [MeteorDevelopment/meteor-bot](https://github.com/MeteorDevelopment/meteor-bot)
-3. 🎉 Merged PR [#12](https://github.com/MeteorDevelopment/meteor-bot/pull/12) in [MeteorDevelopment/meteor-bot](https://github.com/MeteorDevelopment/meteor-bot)
-4. 🗣 Commented on [#3](https://github.com/MeteorDevelopment/meteor-addon-template/issues/3) in [MeteorDevelopment/meteor-addon-template](https://github.com/MeteorDevelopment/meteor-addon-template)
-5. ❌ Closed PR [#3](https://github.com/MeteorDevelopment/meteor-addon-template/pull/3) in [MeteorDevelopment/meteor-addon-template](https://github.com/MeteorDevelopment/meteor-addon-template)
-6. 🎉 Merged PR [#1193](https://github.com/MeteorDevelopment/meteor-client/pull/1193) in [MeteorDevelopment/meteor-client](https://github.com/MeteorDevelopment/meteor-client)
-7. ❗️ Closed issue [#1191](https://github.com/MeteorDevelopment/meteor-client/issues/1191) in [MeteorDevelopment/meteor-client](https://github.com/MeteorDevelopment/meteor-client)
-8. 🗣 Commented on [#1191](https://github.com/MeteorDevelopment/meteor-client/issues/1191) in [MeteorDevelopment/meteor-client](https://github.com/MeteorDevelopment/meteor-client)
+1. ❗️ Closed issue [#1196](https://github.com/MeteorDevelopment/meteor-client/issues/1196) in [MeteorDevelopment/meteor-client](https://github.com/MeteorDevelopment/meteor-client)
+2. ❗️ Closed issue [#1195](https://github.com/MeteorDevelopment/meteor-client/issues/1195) in [MeteorDevelopment/meteor-client](https://github.com/MeteorDevelopment/meteor-client)
+3. ❗️ Closed issue [#11](https://github.com/MeteorDevelopment/meteor-bot/issues/11) in [MeteorDevelopment/meteor-bot](https://github.com/MeteorDevelopment/meteor-bot)
+4. 🗣 Commented on [#11](https://github.com/MeteorDevelopment/meteor-bot/issues/11) in [MeteorDevelopment/meteor-bot](https://github.com/MeteorDevelopment/meteor-bot)
+5. 🎉 Merged PR [#12](https://github.com/MeteorDevelopment/meteor-bot/pull/12) in [MeteorDevelopment/meteor-bot](https://github.com/MeteorDevelopment/meteor-bot)
+6. 🗣 Commented on [#3](https://github.com/MeteorDevelopment/meteor-addon-template/issues/3) in [MeteorDevelopment/meteor-addon-template](https://github.com/MeteorDevelopment/meteor-addon-template)
+7. ❌ Closed PR [#3](https://github.com/MeteorDevelopment/meteor-addon-template/pull/3) in [MeteorDevelopment/meteor-addon-template](https://github.com/MeteorDevelopment/meteor-addon-template)
+8. 🎉 Merged PR [#1193](https://github.com/MeteorDevelopment/meteor-client/pull/1193) in [MeteorDevelopment/meteor-client](https://github.com/MeteorDevelopment/meteor-client)
 <!--END_SECTION:activity-->
