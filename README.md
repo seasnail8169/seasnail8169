@@ -19,11 +19,11 @@
 
 <!--START_SECTION:activity-->
 1. 🗣 Commented on [#1205](https://github.com/MeteorDevelopment/meteor-client/issues/1205) in [MeteorDevelopment/meteor-client](https://github.com/MeteorDevelopment/meteor-client)
-2. ❗️ Closed issue [#1205](https://github.com/MeteorDevelopment/meteor-client/issues/1205) in [MeteorDevelopment/meteor-client](https://github.com/MeteorDevelopment/meteor-client)
-3. ❗️ Closed issue [#1203](https://github.com/MeteorDevelopment/meteor-client/issues/1203) in [MeteorDevelopment/meteor-client](https://github.com/MeteorDevelopment/meteor-client)
-4. ❗️ Closed issue [#1202](https://github.com/MeteorDevelopment/meteor-client/issues/1202) in [MeteorDevelopment/meteor-client](https://github.com/MeteorDevelopment/meteor-client)
-5. ❗️ Closed issue [#8](https://github.com/crazymoose77756/SteveHClient/issues/8) in [crazymoose77756/SteveHClient](https://github.com/crazymoose77756/SteveHClient)
-6. 🗣 Commented on [#551](https://github.com/MeteorDevelopment/meteor-client/issues/551) in [MeteorDevelopment/meteor-client](https://github.com/MeteorDevelopment/meteor-client)
-7. 🎉 Merged PR [#10](https://github.com/MeteorDevelopment/meteor-book-dupe-addon/pull/10) in [MeteorDevelopment/meteor-book-dupe-addon](https://github.com/MeteorDevelopment/meteor-book-dupe-addon)
-8. ❗️ Closed issue [#1196](https://github.com/MeteorDevelopment/meteor-client/issues/1196) in [MeteorDevelopment/meteor-client](https://github.com/MeteorDevelopment/meteor-client)
+2. 🗣 Commented on [#1205](https://github.com/MeteorDevelopment/meteor-client/issues/1205) in [MeteorDevelopment/meteor-client](https://github.com/MeteorDevelopment/meteor-client)
+3. ❗️ Closed issue [#1205](https://github.com/MeteorDevelopment/meteor-client/issues/1205) in [MeteorDevelopment/meteor-client](https://github.com/MeteorDevelopment/meteor-client)
+4. ❗️ Closed issue [#1203](https://github.com/MeteorDevelopment/meteor-client/issues/1203) in [MeteorDevelopment/meteor-client](https://github.com/MeteorDevelopment/meteor-client)
+5. ❗️ Closed issue [#1202](https://github.com/MeteorDevelopment/meteor-client/issues/1202) in [MeteorDevelopment/meteor-client](https://github.com/MeteorDevelopment/meteor-client)
+6. ❗️ Closed issue [#8](https://github.com/crazymoose77756/SteveHClient/issues/8) in [crazymoose77756/SteveHClient](https://github.com/crazymoose77756/SteveHClient)
+7. 🗣 Commented on [#551](https://github.com/MeteorDevelopment/meteor-client/issues/551) in [MeteorDevelopment/meteor-client](https://github.com/MeteorDevelopment/meteor-client)
+8. 🎉 Merged PR [#10](https://github.com/MeteorDevelopment/meteor-book-dupe-addon/pull/10) in [MeteorDevelopment/meteor-book-dupe-addon](https://github.com/MeteorDevelopment/meteor-book-dupe-addon)
 <!--END_SECTION:activity-->
